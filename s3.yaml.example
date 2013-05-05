@@ -1,0 +1,9 @@
+listen:
+  address: 127.0.0.1
+  port: 8333
+key:
+  id: your_aws_key_id
+  secret_file: s3.priv
+headers:
+  # not needed if you own the bucket
+  x-amz-request-payer: requester
